@@ -2,12 +2,12 @@
 
   my = {
 
-    username = "yuanwang";
-    name = "Yuan Wang";
-    email = "yuan.wang@workiva.com";
+    username = "ldnsh";
+    name = "Liam Nyhan";
+    email = "ldnshy@gmail.com";
     hostname = "wf17084";
     gpgKey = "19AD3F6B1A5BF3BF";
-    homeDirectory = "/Users/yuanwang";
+    homeDirectory = "/Users/ldnsh";
   };
   home-manager.users.${config.my.username}.programs = {
     go = {
@@ -16,7 +16,7 @@
     };
     git = {
       extraConfig = {
-        github.user = "yuanwang-wf";
+        github.user = "";
         url."git@github.com:".insteadOf = "https://github.com";
       };
     };

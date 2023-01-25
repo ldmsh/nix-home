@@ -67,7 +67,7 @@
   # services.xserver.libinput.enable = true;
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
-  # users.users.yuanw = {
+  # users.users.ldnsh = {
   #   isNormalUser = true;
   #    uid = 1000;
   #   extraGroups = [ "wheel" ]; # Enable ‘sudo’ for the user.

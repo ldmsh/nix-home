@@ -1,16 +1,16 @@
 { lib, pkgs, config, ... }: {
   home-manager.users.${config.my.username}.programs.git = {
-    extraConfig = { github.user = "yuanw"; };
+    extraConfig = { github.user = "ldnsh"; };
   };
 
   my = {
 
-    username = "yuanw";
-    name = "Yuan Wang";
-    email = "me@yuanwang.ca";
-    hostname = "yuanw";
+    username = "ldnsh";
+    name = "Liam Nyhan";
+    email = "ldnshy@gmail.com";
+    hostname = "ldnsh";
     gpgKey = "BF2ADAA2A98F45E7";
-    homeDirectory = "/Users/yuanw";
+    homeDirectory = "/Users/ldnsh";
   };
 
   services.emacs = {

@@ -2,7 +2,7 @@
 
 * How to build it
 ~nix build .#darwinConfigurations.wf17084.system~
-~nix build .#darwinConfigurations.yuan-mac.system~
+~nix build .#darwinConfigurations.ldnsh-mac.system~
 ./result/sw/bin/darwin-rebuild switch --flake .
 * Goal
 https://grahamc.com/blog/erase-your-darlings

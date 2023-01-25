@@ -78,10 +78,10 @@
       };
 
       darwinConfigurations = {
-        yuanw = mkDarwinSystem { modules = [ ./hosts/yuan-mac.nix ]; };
+        ldnsh = mkDarwinSystem { modules = [ ./hosts/ldnsh-mac.nix ]; };
         wf17084 = mkDarwinSystem { modules = [ ./hosts/wf17084.nix ]; };
       };
-      yuanw = self.darwinConfigurations.yuanw.system;
+      ldnsh = self.darwinConfigurations.ldnsh.system;
       wf17084 = self.darwinConfigurations.wf17084.system;
 
     } // eachDefaultSystem (system:

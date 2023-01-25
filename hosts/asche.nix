@@ -2,12 +2,12 @@
 
 {
   my = {
-    username = "yuanw";
-    name = "Yuan Wang";
-    email = "me@yuanwang.ca";
+    username = "ldnsh";
+    name = "Liam Nyhan";
+    email = "ldnshy@gmail.com";
     hostname = "asche";
     gpgKey = "BF2ADAA2A98F45E7";
-    homeDirectory = "/home/yuanw";
+    homeDirectory = "/home/ldnsh";
   };
   home-manager.users.${config.my.username} = {
     home.file = {
@@ -24,7 +24,7 @@
         theme = ../modules/theme.rafi;
       };
       git.extraConfig = {
-        github.user = "yuanw";
+        github.user = "ldnsh";
         credential.helper =
           "${pkgs.gitAndTools.pass-git-helper}/bin/pass-git-helper";
       };

@@ -15,12 +15,12 @@ in {
 
   options = with types; {
     my = {
-      username = mkOptStr "yuanwang";
-      name = mkOptStr "Yuan Wang";
-      email = mkOptStr (mailAddr "me" "yuanwang.ca");
-      hostname = mkOptStr "yuan-mac";
+      username = mkOptStr "ldnsh";
+      name = mkOptStr "Liam Nyhan";
+      email = mkOptStr (mailAddr "ldnshy" "gmail.com");
+      hostname = mkOptStr "ldnsh-mac";
       gpgKey = mkOptStr "BF2ADAA2A98F45E7";
-      homeDirectory = mkOptStr "/Users/yuanwang";
+      homeDirectory = mkOptStr "/Users/ldnsh";
       font = mkOptStr "PragmataPro";
     };
   };
