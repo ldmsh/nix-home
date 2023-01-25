@@ -18,7 +18,7 @@ in {
       username = mkOptStr "ldnsh";
       name = mkOptStr "Liam Nyhan";
       email = mkOptStr (mailAddr "ldnshy" "gmail.com");
-      hostname = mkOptStr "ldnsh-mac";
+      hostname = mkOptStr "ldnsh";
       gpgKey = mkOptStr "BF2ADAA2A98F45E7";
       homeDirectory = mkOptStr "/Users/ldnsh";
       font = mkOptStr "PragmataPro";
