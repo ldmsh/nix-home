@@ -56,7 +56,7 @@
         };
       mkNixSystem = { modules }:
         nixpkgs.lib.nixosSystem {
-          system = "aarch64-darwin"
+          system = "aarch64-darwin";
           modules = modules ++ [
             ./nixos_system.nix
             home-manager.nixosModules.home-manager
