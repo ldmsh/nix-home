@@ -59,7 +59,7 @@ with lib; {
     enable = true;
     enableSSHSupport = true;
   };
-  time.timeZone = "America/Regina";
+  time.timeZone = "Europe/London";
 
   users.users.${config.my.username} = {
     shell = pkgs.zsh;
