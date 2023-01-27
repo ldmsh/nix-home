@@ -40,7 +40,7 @@
       mkDarwinSystem = { modules }:
         darwin.lib.darwinSystem {
           inputs = inputs;
-          system = "x86_64-darwin";
+          system = "aarch64-darwin";
           modules = [
             { nixpkgs.overlays = overlays; }
 
@@ -56,7 +56,7 @@
         };
       mkNixSystem = { modules }:
         nixpkgs.lib.nixosSystem {
-          system = "x86_64-linux";
+          system = "aarch64-darwin"
           modules = modules ++ [
             ./nixos_system.nix
             home-manager.nixosModules.home-manager
